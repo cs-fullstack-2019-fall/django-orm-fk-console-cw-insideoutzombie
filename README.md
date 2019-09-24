@@ -24,3 +24,8 @@ From the shell copy the commands your entered in the shell to create the instanc
 
 Copy the shell commands you used here!
 
+from myapp.models import Author, Post
+
+a = Author(first_name="John", last_name="rich")
+
+a.save(Author)
